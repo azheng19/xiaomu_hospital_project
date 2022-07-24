@@ -81,6 +81,7 @@ header .header-top .tool .r2 {
   width: 264px;
   height: 28px;
   border: 1px solid rgba(202, 202, 202, 0.6);
+  border-radius: 4px;
 }
 
 header .header-top .tool .r2 input {
@@ -165,24 +166,22 @@ header .main-nav ul li a:hover {
   margin-left: -600px;
 }
 
-.banner .center .left-btn {
+.banner .center .btn {
   position: absolute;
-  left: 0;
   top: 50%;
   margin-top: -37px;
   width: 56px;
   height: 74px;
   background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 6px;
+}
+
+.banner .center .left-btn {
+  left: 0;
 }
 
 .banner .center .right-btn {
-  position: absolute;
   right: 0;
-  top: 50%;
-  margin-top: -37px;
-  width: 56px;
-  height: 74px;
-  background-color: rgba(0, 0, 0, 0.3);
 }
 
 .banner .center h2 {
@@ -212,6 +211,7 @@ header .main-nav ul li a:hover {
   height: 12px;
   background-color: white;
   margin-right: 10px;
+  border-radius: 4px;
 }
 
 .banner ol li:last-child {
@@ -227,6 +227,13 @@ header .main-nav ul li a:hover {
 
 .content {
   padding-top: 71px;
+}
+
+.content h3 {
+  border-left: 8px solid #00978e;
+  height: 20px;
+  padding-left: 10px;
+  line-height: 20px;
 }
 
 .content .useful-links {
@@ -419,6 +426,7 @@ header .main-nav ul li a:hover {
   line-height: 34px;
   margin-right: 17px;
   margin-bottom: 16px;
+  border-radius: 4px;
 }
 
 .content .dep-info .center .col li:nth-child(2n) {
