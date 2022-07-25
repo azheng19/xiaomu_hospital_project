@@ -41,6 +41,8 @@ header .header-top .logo {
 header .header-top .logo h1 {
   width: 221px;
   height: 63px;
+  background-image: url(../images/logo.png);
+  text-indent: -999em;
 }
 
 header .header-top .tool {
@@ -172,16 +174,25 @@ header .main-nav ul li a:hover {
   margin-top: -37px;
   width: 56px;
   height: 74px;
-  background-color: rgba(0, 0, 0, 0.3);
   border-radius: 6px;
 }
 
 .banner .center .left-btn {
   left: 0;
+  background: url(../images/icons.png) no-repeat -42px -31px;
+}
+
+.banner .center .left-btn:hover {
+  background-position: -160px -31px;
 }
 
 .banner .center .right-btn {
   right: 0;
+  background: url(../images/icons.png) no-repeat -42px -121px;
+}
+
+.banner .center .right-btn:hover {
+  background-position: -160px -121px;
 }
 
 .banner .center h2 {
